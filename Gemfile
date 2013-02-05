@@ -8,9 +8,12 @@ gem 'rails', '3.2.8'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
 end
 
 group :test do
+  gem 'rspec-rails'
   gem 'capybara'
 end
 
