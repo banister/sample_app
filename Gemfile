@@ -10,11 +10,17 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry-rails'
   gem 'pry-stack_explorer'
+  gem 'pry-rescue'
+  gem 'guard-rspec'
 end
 
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'rb-fsevent', :require => false
+  gem 'growl'
+  gem 'guard-spork'
+  gem 'spork'
 end
 
 group :production do
